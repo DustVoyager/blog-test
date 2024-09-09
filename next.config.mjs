@@ -1,4 +1,18 @@
-import createMDX from "@next/mdx";
+import nextMDX from "@next/mdx";
+import rehypePrettyCode from "rehype-pretty-code";
+
+/** @type {import('rehype-pretty-code').Options} */
+const options = {
+  theme: "dark-plus",
+};
+
+const withMDX = nextMDX({
+  extension: /\.mdx?$/,
+  options: {
+    remarkPlugins: [],
+    rehypePlugins: [[rehypePrettyCode, options]],
+  },
+});
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -6,10 +20,6 @@ const nextConfig = {
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
   // Optionally, add any other Next.js config below
 };
-
-const withMDX = createMDX({
-  // Add markdown plugins here, as desired
-});
 
 // Merge MDX config with Next.js config
 export default withMDX(nextConfig);
