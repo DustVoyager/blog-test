@@ -7,7 +7,6 @@ export const Code = ({ children }) => {
         [p_&]:py-0.5
         [p_&]:rounded-sm
         [p_&]:bg-gray-200
-        dark:[p_&]:bg-[#333]
       `}
     >
       {children}

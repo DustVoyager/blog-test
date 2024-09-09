@@ -1,7 +1,7 @@
 import { Children } from "react";
 
 export function withHeadingId(children) {
-  return Children.map(children, el => {
+  return Children.map(children, (el) => {
     if ("string" === typeof el) {
       const re = /\[#([^\]]+)\]\s*$/m;
       const match = el.match(re);
@@ -20,8 +20,6 @@ export function withHeadingId(children) {
                 font-normal
                 text-gray-400
                 hover:text-gray-600
-                dark:text-gray-500
-                dark:hover:text-gray-400
               `}
               href={`#${match[1]}`}
             >

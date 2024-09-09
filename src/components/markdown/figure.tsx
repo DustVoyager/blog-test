@@ -7,10 +7,8 @@ export function Figure({ wide = false, children }) {
       wide
         ? `
       bg-gray-100
-      dark:bg-[#111]
       relative
       before:bg-gray-100
-      before:dark:bg-[#111]
       before:w-[10000%]
       before:h-[100%]
       before:content-[""]
