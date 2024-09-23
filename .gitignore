@@ -19,8 +19,6 @@ out/
 # TypeScript
 *.tsbuildinfo
 
-# Tailwind
-postcss.config.mjs
 
 # lock
 package-lock.json
