@@ -21,7 +21,6 @@ out/
 
 # Tailwind
 postcss.config.mjs
-tailwind.config.ts
 
 # lock
 package-lock.json
