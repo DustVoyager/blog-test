@@ -25,14 +25,6 @@ export default function Header() {
               Post
             </Link>
           </li>
-          <li className="inline-flex">
-            <Link
-              href="/resume"
-              className="hover:text-white hover:bg-blue-400 active:bg-blue-500 rounded-sm p-2 transition-[background-color]"
-            >
-              Resume
-            </Link>
-          </li>
         </ul>
       </nav>
     </header>

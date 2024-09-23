@@ -35,13 +35,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(${miaow.toString()})();`,
-          }}
-        />
-      </head>
       <body
         className={`${pretendard.variable} font-pretendard text-gray-900 max-w-2xl m-auto`}
       >
