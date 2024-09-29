@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 블로그 프로젝트 - 장점 요약
 
-## Getting Started
+## 🚀 빠른 성능과 최적화
+- **Next.js**: 서버 사이드 렌더링(SSR)과 정적 사이트 생성(SSG)을 통해 빠른 로딩 속도를 제공합니다.
+- **Tailwind CSS**: **JIT(Just-In-Time)** 컴파일 기능을 활용하여 사용하지 않는 스타일을 제거, 작은 크기의 CSS 파일을 생성합니다.
+- **rehype-pretty-code** & **Shiki**: 코드 블록에 아름다운 문법 하이라이팅을 적용하여 개발 경험을 향상시킵니다.
 
-First, run the development server:
+## 🔄 유연한 테마 관리
+- **next-themes**: 다크 모드 및 다양한 사용자 지정 테마를 간편하게 관리할 수 있습니다.
+- **Tailwind CSS 애니메이션**: 부드러운 사용자 경험을 제공하기 위해 CSS 애니메이션과의 통합이 이루어졌습니다.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📖 문서 및 콘텐츠 관리
+- **MDX 지원**: **@mdx-js/loader**, **@next/mdx**를 사용해 마크다운과 React 컴포넌트를 결합한 콘텐츠 작성을 지원합니다.
+- **gray-matter**: 프론트 매터 데이터를 사용해 블로그 포스트의 메타데이터를 손쉽게 관리할 수 있습니다.
+- **reading-time**: 각 포스트의 예상 읽기 시간을 제공하여 사용자 경험을 개선합니다.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔍 접근성과 편의성
+- **remark-a11y-emoji**: 텍스트 기반 이모지를 보다 접근성 있게 제공하여 더 나은 사용자 경험을 지원합니다.
+- **remark-gfm**: GitHub 스타일의 마크다운을 지원하여 다양한 기능을 손쉽게 사용할 수 있습니다.
+- **remark-breaks**: 라인 브레이크를 자동으로 적용하여 가독성을 높입니다.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ 편리한 개발 환경
+- **TypeScript**: 정적 타입 검사를 통해 안전하고 효율적인 코딩을 지원합니다.
+- **Prettier & ESLint**: 코드 스타일을 자동으로 관리하여 일관된 코드 품질을 유지합니다.
+- **trivago prettier-plugin-sort-imports**: 임포트를 자동으로 정렬하여 코드를 더욱 깔끔하게 유지합니다.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 필수 라이브러리 통합
+- **Radix UI**: 접근성을 고려한 고급 UI 컴포넌트(다이얼로그, 토스트 등)를 제공하여 사용자 인터페이스를 쉽게 구축할 수 있습니다.
+- **lucide-react**: 다양한 아이콘을 활용하여 시각적인 요소를 강화할 수 있습니다.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛡️ 확장성 및 유연성
+- **class-variance-authority**: 클래스 관리를 더욱 효율적으로 하여 일관성 있는 스타일링을 제공합니다.
+- **tailwind-merge**: Tailwind CSS의 중복된 클래스를 자동으로 병합하여 스타일 충돌을 방지합니다.
